@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="style/stylesheets/getPwd.css" rel="stylesheet" style="text/css">
+<link href="css/bootstrap.css" rel="stylesheet" style="text/css">
+</head>
+<body>
+	<header>
+        <div class="head"></div>
+	</header>
+    <div class="menu">
+        <div class="m-content">
+            <span class="sp main"></span>
+            <span class="sp pwd"></span>
+            <span class="sp protect"></span>
+            <span class="sp manager"></span>
+            <span class="sp safe"></span>
+            <span class="sp mobile"></span>
+        </div>
+    </div>
+    <article>
+        <div class="content">
+            <div class="title">
+                <span class="blue-font">密码管理</span>
+                > 修改密码&nbsp;&nbsp;
+                <span class="point"><s:property value="updna"/>撒的发生的浪费</span>
+            </div>
+            <div class="text-three">
+                <div class="text-order">为了更好的保护您的账号安全，避免您和您的好友受到损失，建议您设置密码时：</div>
+                <div class="text1">1.使用
+                    <span class="com-manager"></span>
+                    <span class="com-text">电脑管家</span>
+                    全面杀毒，再设置新密码。
+                </div>
+                <div class="text2">2.不同的QQ账号使用不同的密码，不要设置和其他网站相同的密码。</div>
+            </div>
+            <form class="form-horizontal form" role="form">
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label lab">*新密码:</label>
+                    <div class="col-sm-10 lab-next">
+                        <!--<input type="checkbox" class="checkB" name="username" value="<%=session.getAttribute("ok")%>" checked>-->
+                        <input type="text" class="form-control sl">
+                        <span class="short">密码太短</span>
+                        <span class="long">密码过长</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label lab"></label>
+                    <div class="col-sm-10 lab-next-text">
+                            密码由6-16个字符组成，区分大小写（不能是9位以下的纯数字，不能包含空格）
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label lab">密码强度:</label>
+                    <div class="col-sm-10 lab-next-img">
+                        <span class="pwd weak"></span>
+                        <span class="pwd middle"></span>
+                        <span class="pwd strong"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label lab">*确认新密码:</label>
+                    <div class="col-sm-10 lab-next">
+                        <input type="password" class="form-control" id="inputPassword3">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label lab">*验证码:</label>
+                    <div class="col-sm-10 lab-next">
+                        <input type="password" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label lab"></label>
+                    <div class="col-sm-10 lab-next-text">
+                        请输入图中字符，不区分大小写
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                            <label>
+                                <span class="check-img"></span><span class="img-text">看不清，换一张</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default btn-mine active">确定</button>
+                    </div>
+                </div>
+            </form>
+            <div class="usual">
+                <div class="us-img"></div>
+                <div class="us-text">为什么新密码不要与曾用过的密码相同？</div>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <div class="three">
+            <div class="line-one">
+                <a href="#">关于腾讯</a> |
+                <a href="#">About Tecent</a> |
+                <a href="#">服务条款</a> |
+                <a href="#">腾讯招聘</a> |
+                <a href="#">腾讯客服</a>
+            </div>
+            <div class="line-two">Copyright © 1998 - 2014 Tencent. All Rights Reserved</div>
+            <div class="line-three">腾讯公司 版权所有</div>
+        </div>
+    </footer>
+    <script src="jQuery.js"></script>
+    <script type="text/javascript" src="js/getPwd.js"></script>
+</body>
+</html>

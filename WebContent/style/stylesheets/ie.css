@@ -1,0 +1,337 @@
+/* line 17, E:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, E:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, E:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, E:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, E:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, E:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, E:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, E:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, E:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 11, ../sass/ie.scss */
+* {
+  font-family: microsoft yahei,tahoma,arial,\5b8b\4f53,sans-serif !important;
+}
+
+/* line 14, ../sass/ie.scss */
+body {
+  margin: 0;
+  padding: 0;
+  color: #666;
+  background: url(../../Qzone/ae8539b83ed9a923e1b5f29aa13f4a7c.jpg) repeat-y;
+}
+
+/* line 20, ../sass/ie.scss */
+.right-show {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin-top: 30px;
+  width: 200px;
+  color: #666;
+  font-size: .9em;
+  margin-left: 60%;
+}
+
+/* line 28, ../sass/ie.scss */
+.content {
+  width: 990px;
+  margin: 2% auto 1%;
+}
+/* line 32, ../sass/ie.scss */
+.content .line-top .left {
+  width: 40%;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin: 0 3%;
+}
+/* line 36, ../sass/ie.scss */
+.content .line-top .left img {
+  margin-bottom: 8%;
+  display: block;
+}
+/* line 40, ../sass/ie.scss */
+.content .line-top .left .q {
+  width: 141px;
+  height: 49px;
+}
+/* line 44, ../sass/ie.scss */
+.content .line-top .left .gan {
+  width: 450px;
+  height: 235px;
+}
+/* line 49, ../sass/ie.scss */
+.content .line-top .right {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 430px;
+  margin: 0 3%;
+  border: #E9E9E9 solid 1px;
+  background: #fff;
+  -webkit-box-shadow: 2px 1px #e9e9e9;
+  -moz-box-shadow: 2px 1px #e9e9e9;
+  box-shadow: 2px 1px #e9e9e9;
+}
+/* line 56, ../sass/ie.scss */
+.content .line-top .right .first-div {
+  margin: 3% auto 10%;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #E9E9E9;
+}
+/* line 61, ../sass/ie.scss */
+.content .line-top .right .first-div #fast,
+.content .line-top .right .first-div #login {
+  color: #999;
+  font-size: 1.4em;
+  margin: 0 12%;
+  text-decoration: none;
+}
+/* line 66, ../sass/ie.scss */
+.content .line-top .right .first-div #fast:hover,
+.content .line-top .right .first-div #login:hover {
+  color: #666;
+}
+/* line 71, ../sass/ie.scss */
+.content .line-top .right #form {
+  width: 70%;
+  margin: auto;
+  height: 220px;
+  overflow: hidden;
+}
+/* line 76, ../sass/ie.scss */
+.content .line-top .right #form .form-login {
+  width: 100%;
+}
+/* line 79, ../sass/ie.scss */
+.content .line-top .right #form .form-login .form-group input[type=text] {
+  color: #999;
+}
+/* line 82, ../sass/ie.scss */
+.content .line-top .right #form .form-login .form-group input[type=submit] {
+  background: url(../../Qzone/qzonelogin.png);
+}
+/* line 86, ../sass/ie.scss */
+.content .line-top .right #form .form-login .form-group .btn {
+  width: 120px;
+  height: 40px;
+}
+/* line 92, ../sass/ie.scss */
+.content .line-top .right #form .form-fast {
+  width: 100%;
+  height: 230px;
+}
+/* line 95, ../sass/ie.scss */
+.content .line-top .right #form .form-fast .head {
+  width: 46%;
+  margin: auto;
+  font-weight: bold;
+  font-size: 1em;
+}
+/* line 103, ../sass/ie.scss */
+.content .line-top .right #form .form-fast .mid-img {
+  width: 100%;
+  position: relative;
+}
+/* line 106, ../sass/ie.scss */
+.content .line-top .right #form .form-fast .mid-img .ptqr {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin: 1% auto;
+  width: 141px;
+  height: 141px;
+  position: absolute;
+  left: 78px;
+  border: #eaeaea solid 1px;
+}
+/* line 121, ../sass/ie.scss */
+.content .line-top .right #form .form-fast .mid-img .tips {
+  position: absolute;
+  right: -10px;
+  top: -20px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+/* line 129, ../sass/ie.scss */
+.content .line-top .right #form .form-fast a {
+  width: 60%;
+  display: block;
+  background: #eaeaea;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  text-align: center;
+  color: #666;
+  font-size: .8em;
+  float: left;
+  margin-top: 180px;
+  margin-left: 50px;
+}
+/* line 146, ../sass/ie.scss */
+.content .line-top .right .form-bottom {
+  width: 70%;
+  font-size: .8em;
+  margin: 3% 3% 3% 40%;
+}
+/* line 150, ../sass/ie.scss */
+.content .line-top .right .form-bottom a {
+  color: #666;
+}
+/* line 156, ../sass/ie.scss */
+.content .line-bottom {
+  width: 400px;
+  margin: 5% auto 0;
+}
+/* line 159, ../sass/ie.scss */
+.content .line-bottom .span1 {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 30px;
+  height: 30px;
+  margin: 0 23px;
+  background: url(../../Qzone/qzonelogin.png) no-repeat;
+}
+/* line 166, ../sass/ie.scss */
+.content .line-bottom .iphone {
+  background-position: 0px -71px;
+}
+/* line 169, ../sass/ie.scss */
+.content .line-bottom .ipad {
+  background-position: 0px -100px;
+}
+/* line 172, ../sass/ie.scss */
+.content .line-bottom .android {
+  background-position: -30px -43px;
+}
+/* line 175, ../sass/ie.scss */
+.content .line-bottom .wp {
+  background-position: -30px -100px;
+}
+/* line 178, ../sass/ie.scss */
+.content .line-bottom .other {
+  background-position: -30px -71px;
+}
+/* line 182, ../sass/ie.scss */
+.content .line-b-text {
+  width: 400px;
+  margin: 0 auto 3%;
+}
+/* line 185, ../sass/ie.scss */
+.content .line-b-text .span2 {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 60px;
+  height: 20px;
+  margin: 0 8px;
+  text-align: center;
+  color: #666;
+  font-size: .7em;
+}
+
+/* line 196, ../sass/ie.scss */
+.footer {
+  font-size: .9em;
+  color: #666;
+}
+/* line 199, ../sass/ie.scss */
+.footer .line-one {
+  margin: .5% auto;
+  width: 670px;
+}
+/* line 200, ../sass/ie.scss */
+.footer .line-one a {
+  color: #666;
+}
+/* line 206, ../sass/ie.scss */
+.footer .line-two {
+  margin: .5% auto;
+  width: 350px;
+}
+/* line 210, ../sass/ie.scss */
+.footer .line-three {
+  margin: .5% auto;
+  width: 270px;
+}

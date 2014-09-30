@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<china> <province name="北京">
+		<city>海淀</city>
+		<city>朝阳</city>
+		<city>崇文</city>
+		<city>宣武</city>
+		<city>丰台</city>
+	</province>
+	<province name="上海">
+		<city>浦东新区</city>
+		<city>徐汇</city>
+		<city>杨浦</city>
+		<city>虹口</city>
+		<city>闵行</city>
+	</province>
+	<province name="辽宁省">
+		<city>沈阳</city>
+		<city>大连</city>
+		<city>鞍山</city>
+		<city>抚顺</city>
+		<city>铁岭</city>
+	</province>
+	<province name="山东省">
+		<city>济南</city>
+		<city>青岛</city>
+		<city>威海</city>
+		<city>烟台</city>
+		<city>潍坊</city>
+	</province>
+        <province name="湖南省">
+		<city>长沙</city>
+		<city>常德</city>
+		<city>衡阳</city>
+		<city>张家界</city>
+		<city>株洲</city>
+	</province>
+         <province name="广东省">
+		<city>广州</city>
+		<city>佛山</city>
+		<city>汕头</city>
+		<city>东莞</city>
+		<city>深圳</city>
+	</province>
+</china>	

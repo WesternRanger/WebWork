@@ -1,0 +1,41 @@
+$(document).ready(function(){
+			$(".tips").hide();
+			$("#fast").click(function(){
+				$(".form-login").hide().siblings().show();
+				return false;
+			});
+			$("#login").click(function(){
+				$(".form-fast").hide().siblings().show();
+				return false;
+			});
+			$(".ptqr").mouseover(function(){
+				$(".tips").fadeIn(fast);
+				$(this).animate({left:"1px"},fast);
+			}).mouseout(function(){
+				$(".tips").fadeOut(fast);
+				$(this).animate({left:"78px"},fast);
+			})
+                $("#username").click(
+                        function(){
+                            if($(this).val()=="用户名"){
+                                $(this).val("");
+                            }
+                        }).blur(
+                        function(){
+                            if($(this).val()==""){
+                                $(this).val("用户名");
+                            }
+                        })
+                $("#password").click(
+                        function(){
+                            if($(this).val()=="密码"){
+                                $(this).val("");
+                            }
+                        }).blur(
+                        function(){
+                            if($(this).val()=="")
+                            {
+                                $(this).val("密码");
+                            }
+                        })
+        })

@@ -1,0 +1,167 @@
+/* line 2, ../sass/print.scss */
+* {
+  font-family: microsoft yahei,tahoma,arial,\5b8b\4f53,sans-serif !important;
+}
+
+/* line 5, ../sass/print.scss */
+.body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* line 10, ../sass/print.scss */
+header {
+  border-bottom: #e5e5e5 solid 1px;
+}
+/* line 12, ../sass/print.scss */
+header .head {
+  width: 65%;
+  margin: auto;
+  padding: 2%;
+}
+/* line 16, ../sass/print.scss */
+header .head .reg {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 298px;
+  height: 48px;
+  margin: 0 left;
+  background: url(../../Qzone/reg.png);
+  background-position: -3px -3px;
+}
+/* line 24, ../sass/print.scss */
+header .head .right-show {
+  width: 200px;
+  height: 20px;
+  margin-left: 100px;
+  color: #666;
+  font-size: .8em;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+
+/* line 36, ../sass/print.scss */
+article .content {
+  margin: 4% auto;
+  width: 600px;
+}
+/* line 39, ../sass/print.scss */
+article .content #username {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+/* line 42, ../sass/print.scss */
+article .content .img {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 29px;
+  height: 29px;
+  background: url(../../Qzone/reg.png);
+}
+/* line 48, ../sass/print.scss */
+article .content .correct {
+  background-position: -585px 0;
+}
+/* line 51, ../sass/print.scss */
+article .content .error {
+  background-position: -614px 0;
+}
+/* line 54, ../sass/print.scss */
+article .content .label-w {
+  color: #666;
+  font-weight: normal;
+}
+/* line 58, ../sass/print.scss */
+article .content .input-w {
+  width: 60%;
+}
+/* line 61, ../sass/print.scss */
+article .content .label-access {
+  font-size: .6em;
+}
+/* line 65, ../sass/print.scss */
+article .content .form-birth .sel-op {
+  width: 65px;
+  height: 25px;
+  font-size: .7em;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  color: #666;
+}
+/* line 72, ../sass/print.scss */
+article .content .form-birth .sel-op-2 {
+  width: 90px;
+}
+/* line 77, ../sass/print.scss */
+article .content .form-loc .sel-op {
+  width: 96px;
+  height: 25px;
+  font-size: .7em;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  color: #666;
+}
+/* line 85, ../sass/print.scss */
+article .content .confirm {
+  width: 70%;
+  margin: 3% auto;
+}
+/* line 89, ../sass/print.scss */
+article .content .button {
+  background: url(../../Qzone/reg.png);
+  width: 130px;
+  height: 40px;
+  background-position: -450px -2px;
+}
+
+/* line 97, ../sass/print.scss */
+footer {
+  border-top: #e5e5e5 1px solid;
+}
+/* line 99, ../sass/print.scss */
+footer .line-top {
+  width: 680px;
+  margin: 2% auto;
+}
+/* line 102, ../sass/print.scss */
+footer .line-top a {
+  font-size: .8em;
+  color: #999;
+  text-decoration: none;
+}
+/* line 106, ../sass/print.scss */
+footer .line-top a:hover {
+  text-decoration: underline;
+}
+/* line 111, ../sass/print.scss */
+footer .line-bottom {
+  width: 550px;
+  margin: 0 auto 2%;
+  font-size: .8em;
+  color: #999;
+}

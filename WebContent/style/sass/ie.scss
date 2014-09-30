@@ -1,0 +1,215 @@
+@import "compass/reset";
+@import "compass/css3";
+// @-webkit-keyframes a{
+// 	0%{
+// 		-webkit-transform: translate(0,0);
+// 	}
+// 	100%{
+// 		-webkit-transform: translate(-40px,0);
+// 	}
+// }
+*{
+  font-family: microsoft yahei,tahoma,arial,\5b8b\4f53,sans-serif !important;
+}
+body{
+	margin:0;
+	padding:0;
+	color:#666;
+	background: url(../../Qzone/ae8539b83ed9a923e1b5f29aa13f4a7c.jpg)repeat-y;
+}
+.right-show{
+  @include inline-block;
+  margin-top:30px;
+  width:200px;
+  color:#666;
+  font-size:.9em;
+  margin-left:60%;
+}
+.content{
+		width:990px;
+		margin:2% auto 1%;
+		.line-top{
+			.left{
+				width:40%;
+				@include inline-block;
+				margin:0 3%;
+				img{
+					margin-bottom:8%;
+					display: block;
+				}
+				.q{
+					width:141px;
+					height:49px;
+				}
+				.gan{
+					width:450px;
+					height:235px;
+				}
+			}
+			.right{
+				@include inline-block;
+				width:430px;
+				margin:0 3%;
+				border:#E9E9E9 solid 1px;
+                background: #fff;
+				@include box-shadow(2px 1px #E9E9E9);
+				.first-div{
+					margin:3% auto 10%;
+					padding-bottom:8px;
+					border-bottom:1px solid #E9E9E9;
+					#fast,
+					#login{
+						color:#999;
+						font-size:1.4em;
+						margin:0 12%;
+						text-decoration: none;
+						&:hover{
+							color:#666;
+						}
+					}
+				}
+				#form{
+					width:70%;
+					margin:auto;
+					height:220px;
+					overflow: hidden;
+					.form-login{
+						width:100%;
+						.form-group{
+							input[type=text]{
+								color:#999;
+							}
+							input[type=submit]{
+                              background: url(../../Qzone/qzonelogin.png);
+							}
+
+							.btn{
+								width:120px;
+								height:40px;
+							}
+						}
+					}
+					.form-fast{
+						width:100%;
+						height:230px;
+						.head{
+							width:46%;
+							margin:auto;
+							font:{
+								weight:bold;
+								size:1em;
+							}
+						}
+						.mid-img{
+							width:100%;
+							position:relative;
+							.ptqr{
+								@include inline-block;
+								margin:1% auto;
+								width:141px;
+								height:141px;
+								position:absolute;
+								left:78px;
+								border:#eaeaea solid 1px;
+								// &:hover{
+								// 	-webkit-animation-name:a;
+								// 	-webkit-animation-duration:1s;
+								// 	// -webkit-animation-iteration-count: infinite;
+								// 	-webkit-animation-timing-function: linear;
+								// }
+							}
+							.tips{
+								position:absolute;
+								right:-10px;
+								top:-20px;
+								@include inline-block;
+							}
+						}
+						
+						a{
+							width:60%;
+							display: block;
+							background:#eaeaea;
+							@include border-radius(10px);
+							text-align:center;
+							color:#666;
+							font-size:.8em;
+							float:left;
+							margin:{
+								top:180px;
+								left:50px;
+							}
+						}
+					}
+				}
+				
+				.form-bottom{
+					width:70%;
+                    font-size:.8em;
+					margin:3% 3% 3% 40%;
+                  a{
+                    color:#666;
+                  }
+				}
+			}
+		}
+		.line-bottom{
+			width:400px;
+			margin:5% auto 0;
+			.span1{
+				@include inline-block;
+				width:30px;
+				height:30px;
+				margin:0 23px;
+				background: url(../../Qzone/qzonelogin.png) no-repeat;
+			}
+			.iphone{
+				background-position:0px -71px;
+			}
+			.ipad{
+                background-position:0px -100px;
+			}
+			.android{
+              background-position:-30px -43px;
+			}
+			.wp{
+              background-position:-30px -100px;
+			}
+			.other{
+              background-position:-30px -71px;
+			}
+		}
+		.line-b-text{
+			width:400px;
+			margin:0 auto 3%;
+			.span2{
+				@include inline-block;
+				width:60px;
+				height:20px;
+				margin:0 8px;
+				text-align: center;
+				color:#666;
+				font-size: .7em;
+			}
+		}
+	}
+.footer{
+	font-size:.9em;
+    color:#666;
+	.line-one{
+      a{
+        color:#666;
+      }
+		margin:.5% auto;
+		width:670px;
+	}
+	.line-two{
+		margin:.5% auto;
+		width:350px;
+	}
+	.line-three{
+		margin:.5% auto;
+		width:270px;
+	}
+}
+

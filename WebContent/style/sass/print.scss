@@ -1,0 +1,117 @@
+@import "compass/css3";
+*{
+  font-family: microsoft yahei,tahoma,arial,\5b8b\4f53,sans-serif !important;
+}
+.body{
+	margin:0;
+	padding:0;
+  background-color: #f5f5f5;
+}
+header{
+  border-bottom:#e5e5e5 solid 1px;
+  .head{
+    width:65%;
+    margin:auto;
+    padding:2%;
+    .reg{
+      @include inline-block;
+      width:298px;
+      height:48px;
+      margin:0 left;
+      background:url(../../Qzone/reg.png);
+      background-position: -3px -3px;
+    }
+    .right-show{
+      width:200px;
+      height:20px;
+      margin-left:100px;
+      color:#666;
+      font-size:.8em;
+      @include inline-block;
+    }
+  }
+
+}
+article{
+  .content{
+    margin:4% auto;
+    width:600px;
+	  	#username{
+	  		 @include inline-block;
+	  	}
+	  	.img{
+	        @include inline-block;
+	        width:29px;
+	        height:29px;
+          background: url(../../Qzone/reg.png);
+        }
+        .correct{
+          background-position: -585px 0;
+        }
+        .error{
+          background-position: -614px 0;
+        }
+    .label-w{
+      color:#666;
+      font-weight: normal;
+    }
+    .input-w{
+      width:60%;
+    }
+    .label-access{
+      font-size:.6em;
+    }
+    .form-birth{
+      .sel-op{
+        width:65px;
+        height:25px;
+        font-size: .7em;
+        @include inline-block;
+        color:#666;
+      }
+      .sel-op-2{
+        width:90px;
+      }
+    }
+    .form-loc{
+      .sel-op{
+        width:96px;
+        height:25px;
+        font-size: .7em;
+        @include inline-block;
+        color:#666;
+      }
+    }
+    .confirm{
+      width:70%;
+      margin:3% auto;
+    }
+    .button{
+      background: url(../../Qzone/reg.png);
+      width:130px;
+      height:40px;
+      background-position: -450px -2px;
+    }
+  }
+}
+footer{
+  border-top:#e5e5e5 1px solid;
+  .line-top{
+    width:680px;
+    margin:2% auto;
+    a{
+      font-size:.8em;
+      color:#999;
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+  .line-bottom{
+    width:550px;
+    margin:0 auto 2%;
+    font-size:.8em;
+    color:#999;
+  }
+}

@@ -1,0 +1,379 @@
+/* line 17, E:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, E:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, E:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, E:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, E:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, E:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, E:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, E:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, E:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/getPwd.scss */
+* {
+  font-family: microsoft yahei,tahoma,arial,\5b8b\4f53,sans-serif !important;
+}
+
+/* line 6, ../sass/getPwd.scss */
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 10, ../sass/getPwd.scss */
+header {
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#ebf2f8));
+}
+/* line 14, ../sass/getPwd.scss */
+header .head {
+  width: 910px;
+  height: 86px;
+  margin: 0 auto;
+  background: url(../../getPwdImg/header.jpg);
+}
+
+/* line 21, ../sass/getPwd.scss */
+.menu {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, darkblue), color-stop(0.4, #4291d3), color-stop(0.6, #4291d3), color-stop(1, darkblue));
+}
+/* line 24, ../sass/getPwd.scss */
+.menu .m-content {
+  margin: 0 auto;
+  width: 67%;
+  min-width: 600px;
+  max-width: 900px;
+  height: 40px;
+  position: relative;
+}
+/* line 31, ../sass/getPwd.scss */
+.menu .m-content .sp {
+  width: 15%;
+  min-width: 80px;
+  max-width: 100px;
+  height: 40px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  background: url(../../getPwdImg/menu.png);
+  margin: 0 0.5%;
+}
+/* line 39, ../sass/getPwd.scss */
+.menu .m-content .sp:hover {
+  -webkit-box-shadow: 1px 1px 1px 1px #666666;
+  -moz-box-shadow: 1px 1px 1px 1px #666666;
+  box-shadow: 1px 1px 1px 1px #666666;
+}
+/* line 43, ../sass/getPwd.scss */
+.menu .m-content .main {
+  width: 10%;
+  min-width: 50px;
+  max-width: 75px;
+  background-position: 0 0;
+}
+/* line 49, ../sass/getPwd.scss */
+.menu .m-content .pwd {
+  background-position: -92px 0;
+}
+/* line 52, ../sass/getPwd.scss */
+.menu .m-content .protect {
+  background-position: -203px 0;
+}
+/* line 55, ../sass/getPwd.scss */
+.menu .m-content .manager {
+  background-position: -316px 0;
+}
+/* line 58, ../sass/getPwd.scss */
+.menu .m-content .safe {
+  background-position: -426px 0;
+}
+/* line 61, ../sass/getPwd.scss */
+.menu .m-content .mobile {
+  position: absolute;
+  bottom: 0;
+  right: 1%;
+  height: 70px;
+  width: 20%;
+  min-width: 100px;
+  max-width: 130px;
+  background: url(../../getPwdImg/bg.png);
+  background-position: -740px -1180px;
+}
+
+/* line 74, ../sass/getPwd.scss */
+article {
+  border: 1px solid #ebf2f8;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d9effd), to(white));
+}
+/* line 78, ../sass/getPwd.scss */
+article .content {
+  background: #ffffff;
+  border: 3px solid #e5e5e5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 2px 2px #999999;
+  -moz-box-shadow: 2px 2px #999999;
+  box-shadow: 2px 2px #999999;
+  width: 67%;
+  min-width: 800px;
+  max-width: 900px;
+  margin: 20px auto 0;
+}
+/* line 87, ../sass/getPwd.scss */
+article .content .title {
+  height: 35px;
+  width: 98%;
+  margin: 0 auto 50px;
+  vertical-align: middle;
+  line-height: 35px;
+  border-bottom: dotted #265380 1px;
+}
+/* line 94, ../sass/getPwd.scss */
+article .content .title .blue-font {
+  color: #265380;
+}
+/* line 97, ../sass/getPwd.scss */
+article .content .title .point {
+  color: deepskyblue;
+  font-size: .8em;
+  margin-left: 30px;
+  text-shadow: 1px 1px #999999;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+/* line 108, ../sass/getPwd.scss */
+article .content .text-three {
+  margin: 0 auto;
+  width: 60%;
+}
+/* line 111, ../sass/getPwd.scss */
+article .content .text-three .text-order {
+  margin-bottom: 10px;
+  width: 90%;
+  max-width: 1000px;
+  min-width: 900px;
+}
+/* line 118, ../sass/getPwd.scss */
+article .content .text-three .text1 .com-manager {
+  background: url(../../getPwdImg/guanjia.png);
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 16px;
+  height: 16px;
+}
+/* line 124, ../sass/getPwd.scss */
+article .content .text-three .text1 .com-text {
+  color: #265380;
+}
+/* line 128, ../sass/getPwd.scss */
+article .content .text-three .text2 {
+  margin-bottom: 20px;
+}
+/* line 132, ../sass/getPwd.scss */
+article .content .form {
+  width: 67%;
+  margin: 0 auto;
+}
+/* line 135, ../sass/getPwd.scss */
+article .content .form .lab {
+  width: 116px;
+}
+/* line 138, ../sass/getPwd.scss */
+article .content .form .lab-next {
+  width: 60%;
+  max-width: 250px;
+  min-width: 160px;
+}
+/* line 143, ../sass/getPwd.scss */
+article .content .form .lab-next .sl {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 72%;
+  max-width: 250px;
+  min-width: 160px;
+}
+/* line 151, ../sass/getPwd.scss */
+article .content .form .lab-next .short,
+article .content .form .lab-next .long {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 50px;
+  height: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+  font-size: .4em;
+  color: #666;
+  background: #f37f41;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 163, ../sass/getPwd.scss */
+article .content .form .lab-next-text {
+  width: 500px;
+  font-size: .7em;
+  color: #999;
+}
+/* line 168, ../sass/getPwd.scss */
+article .content .form .lab-next-img {
+  width: 160px;
+  height: 23px;
+  margin-left: 20px;
+  margin-top: 4px;
+}
+/* line 175, ../sass/getPwd.scss */
+article .content .form .lab-next-img .pwd {
+  display: block;
+  float: left;
+  width: 38px;
+  height: 20px;
+  margin: 0 1px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  border: #e5e5e5 solid 1px;
+}
+/* line 188, ../sass/getPwd.scss */
+article .content .form .check-img {
+  background: url(../../getPwdImg/getimage.jpg);
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 130px;
+  height: 53px;
+}
+/* line 194, ../sass/getPwd.scss */
+article .content .form .img-text {
+  color: #4291d3;
+  font-size: .8em;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin-top: 40px;
+}
+/* line 200, ../sass/getPwd.scss */
+article .content .form .btn-mine {
+  width: 100px;
+  font-weight: bold;
+  letter-spacing: 9px;
+  text-indent: 9px;
+}
+/* line 207, ../sass/getPwd.scss */
+article .content .usual {
+  width: 90%;
+  margin: 0 auto;
+}
+/* line 210, ../sass/getPwd.scss */
+article .content .usual .us-img {
+  background: url(../../getPwdImg/title.png);
+  background-position: 4px -178px;
+  width: 140px;
+  height: 21px;
+  margin-bottom: 5px;
+}
+/* line 217, ../sass/getPwd.scss */
+article .content .usual .us-text {
+  font-size: .8em;
+  margin-bottom: 60px;
+}
+
+/* line 225, ../sass/getPwd.scss */
+footer .three {
+  margin: 20px auto;
+  width: 30%;
+  min-width: 350px;
+  max-width: 500px;
+  text-align: center;
+  color: #999;
+  font-size: .9em;
+}
+/* line 234, ../sass/getPwd.scss */
+footer .three .line-one a {
+  color: #999;
+  text-decoration: none;
+}
+/* line 237, ../sass/getPwd.scss */
+footer .three .line-one a:hover {
+  text-decoration: underline;
+}
