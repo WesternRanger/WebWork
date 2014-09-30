@@ -6,6 +6,21 @@
 .body{
   background: url(../../mainPageImg/72019_top.webp);
 }
+.clearfix
+                    {
+                        *zoom: 1;
+                    }
+                    .clearfix:before,
+                    .clearfix:after
+                    {
+                        display: table;
+                        line-height: 0;
+                        content: "";
+                    }
+                    .clearfix:after
+                    {
+                        clear: both;
+                    }
 #tooltip{
   display: none;
   position:absolute;
@@ -443,6 +458,18 @@ article{
             margin:8px auto;
 //            border:red solid 1px;
 //            height:100px;
+            li{
+              margin-top: 5px;
+              margin-bottom: 5px;
+              img {
+                        display: inline-block;
+                        border-radius: 5px;
+                    }
+                    span {
+                        margin-left: 15px;
+                        color: #fff;
+                    }
+            }
           }
           .fri-mine{
             input{
@@ -454,6 +481,23 @@ article{
               background: #265380;
               @include border-radius(2px);
               border:0;
+            }
+            #commBtn {
+              float: right;
+              margin-right: 6%;
+              margin-bottom: 2%;
+              #word {
+                width: 50px;
+                text-align: center;
+                vertical-align: middle;
+                display: inline-block;
+              }
+              #sub {
+                        width: 80px;
+                        border: 0;
+                        border-radius: 5px;
+                        background-color: #439bf3;
+                    }
             }
           }
         }

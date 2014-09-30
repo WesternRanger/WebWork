@@ -167,57 +167,6 @@
                         </div>
                     </div>
                 </div>
-                <style>
-                    #commBtn {
-                        float: right;
-                        margin-right: 6%;
-                        margin-bottom: 2%;
-                    }
-
-                    #word {
-                        width: 50px;
-                        text-align: center;
-                        vertical-align: middle;
-                        display: inline-block;
-                    }
-
-                    #sub {
-                        width: 80px;
-                        border: 0;
-                        border-radius: 5px;
-                        background-color: #439bf3;
-                    }
-
-                    .comment-line li {
-                        margin-top: 5px;
-                        margin-bottom: 5px;
-                    }
-
-                    .comment-line li img {
-                        display: inline-block;
-                        border-radius: 5px;
-                    }
-
-                    .comment-line li span {
-                        margin-left: 15px;
-                        color: #fff;
-                    }
-                    .clearfix
-                    {
-                        *zoom: 1;
-                    }
-                    .clearfix:before,
-                    .clearfix:after
-                    {
-                        display: table;
-                        line-height: 0;
-                        content: "";
-                    }
-                    .clearfix:after
-                    {
-                        clear: both;
-                    }
-                </style>
             </div>
         </div>
         <div class="right-div">

@@ -22,11 +22,10 @@ header .head {
 }
 /* line 16, ../sass/print.scss */
 header .head .reg {
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   width: 298px;
   height: 48px;
@@ -41,11 +40,10 @@ header .head .right-show {
   margin-left: 100px;
   color: #666;
   font-size: .8em;
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
 }
 
@@ -56,20 +54,18 @@ article .content {
 }
 /* line 39, ../sass/print.scss */
 article .content #username {
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
 }
 /* line 42, ../sass/print.scss */
 article .content .img {
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   width: 29px;
   height: 29px;
@@ -101,11 +97,10 @@ article .content .form-birth .sel-op {
   width: 65px;
   height: 25px;
   font-size: .7em;
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   color: #666;
 }
@@ -118,11 +113,10 @@ article .content .form-loc .sel-op {
   width: 96px;
   height: 25px;
   font-size: .7em;
-  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  zoom: 1;
+  *zoom: 1;
   *display: inline;
   color: #666;
 }
