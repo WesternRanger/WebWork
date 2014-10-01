@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    /*°´Å¥ÇÐ»»*/
+    /*ï¿½ï¿½Å¥ï¿½Ð»ï¿½*/
     var width=$(".content").width();
     var wai_width=$(".box").width();
     $(".title .user1").click(function a(){$(".box .content").animate({"left":"0px"},1000);});
@@ -10,24 +10,25 @@ $(document).ready(function(){
     $(".title .user6").click(function a(){$(".box .content").animate({"left":-5*wai_width+"px"},1000);});
     $(".title .user7").click(function a(){$(".box .content").animate({"left":-6*wai_width+"px"},1000);});
     $(".title .user8").click(function a(){$(".box .content").animate({"left":-7*wai_width+"px"},1000);});
-	//ÁôÑÔÌá½»Êý¾Ý¿â//ÏÔÊ¾ÁôÑÔ
-	$(".comment").click(function(){
+	//ï¿½ï¿½ï¿½ï¿½ï¿½á½»ï¿½ï¿½ï¿½Ý¿ï¿½//ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½
+	$("#sub").click(function(){
 		 var $input_mine=$(".input_mine");
          var jsonObj={
              input_mine:$input_mine.val()
          };
          $.get("ajaxRequest/word.jsp",jsonObj,function(data,textStatus){
              if(data==1){
-            	 window.location.href="mainPage.jsp";
+//            	 window.location.href="mainPage.jsp";
+            	 $(".comment-line li span").load("ajaxRequest/wordShow.jsp");
              }
              else{
-                //alert("jiashibai");
+            	 
              }
          });  
      });
-	$(".comment-line").load("ajaxRequest/wordShow.jsp");
+	$(".comment-line li span").load("ajaxRequest/wordShow.jsp");
 	
-    //´ó¼Ò¶¼ÔÚ¿´
+    //ï¿½ï¿½Ò¶ï¿½ï¿½Ú¿ï¿½
     $(".adv1 .img2").hide();
     $(".adv1 .pre").click(function(){
         $(".adv1 .img2").hide();
@@ -37,7 +38,7 @@ $(document).ready(function(){
         $(".adv1 .img1").hide();
         $(".adv1 .img2").show();
     });
-    //¿ÉÄÜÈÏÊ¶µÄÈË
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¶ï¿½ï¿½ï¿½ï¿½
     $(".adv2 .img2").hide();
     $(".adv2 .pre").click(function(){
         $(".adv2 .img2").hide();
@@ -47,7 +48,7 @@ $(document).ready(function(){
         $(".adv2 .img1").hide();
         $(".adv2 .img2").show();
     });
-    //Ö¸ÓÃ»§Í·ÏñÏÔÊ¾ÓÃ»§ÐÅÏ¢
+    //Ö¸ï¿½Ã»ï¿½Í·ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½Ã»ï¿½ï¿½ï¿½Ï¢
     var x=10,
     y=10;
     $(".pic").mouseover(function(e){
@@ -61,10 +62,10 @@ $(document).ready(function(){
         $("#tooltip").css({"top": (e.pageY+y),"left": (e.pageX+x)});
     });
 });
-//ÓÒ±ß×ÔÓÉ²¥·Å»ÃµÆ
+//ï¿½Ò±ï¿½ï¿½ï¿½ï¿½É²ï¿½ï¿½Å»Ãµï¿½
 window.onload=function(){
     var curIndex=0;
-    //Ê±¼ä¼ä¸ô µ¥Î»ºÁÃë
+    //Ê±ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½
     var timeInterval=2000;
     var arr=new Array();
     arr[0]="mainPageImg/ani1.jpg";

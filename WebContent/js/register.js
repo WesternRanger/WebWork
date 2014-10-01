@@ -6,7 +6,7 @@ $(document).ready(function(){
                     username:$username.val()
                 };
                 $.get("ajaxRequest/checkUsername1.jsp",jsonObj,function(data,textStatus){
-                    if(data==1)
+                    if(data==1)//Ф╡║Ф°┴Е▄╧И┘█Г └Г■╗Ф┬╥Е░█
                     {
                        // $username.next().show();
                         //$username.next().next().hide();
@@ -14,7 +14,7 @@ $(document).ready(function(){
                        $(".img").eq(1).hide();
                        //alert(jsonObj);
                     }
-                    else
+                    else//Х╬⌠Е┘╔Г └Г■╗Ф┬╥Е░█Х╥÷Ф∙╟Ф█╝Е╨⌠Е├┘Г⌡╦Е░▄
                     {
                        // $username.next().hide();
                        // $username.next().next().show();
@@ -23,15 +23,15 @@ $(document).ready(function(){
                     }
                 });
             });
-            //обю╜ап╠М©Рajaxй╣ож
-          //╠ё╢Фxmlнд╣╣н╙х╚╬ж╠Да©
+            //О©╫О©╫О©╫О©╫О©╫п╠О©╫О©╫ajaxй╣О©╫О©╫
+          //О©╫О©╫О©╫О©╫xmlО©╫д╣О©╫н╙х╚О©╫ж╠О©╫О©╫О©╫
             var xmlDoc=null;
             /**************************************************************************************/
-            //╢╕юМprovince╣добю╜я║
+            //О©╫О©╫О©╫О©╫provinceО©╫О©╫О©╫О©╫О©╫О©╫я║
             $.get("ajaxRequest/cities.xml",function(xml){
                 xmlDoc=xml;
 
-                //<province name="аидЧй║">
+                //<province name="О©╫О©╫О©╫О©╫й║">
                 var $provinceXml=$(xml).find("province");
 
                 $provinceXml.each(function(index,domEle){
@@ -47,17 +47,17 @@ $(document).ready(function(){
                 });
             });
             /**************************************************************************************/
-        //╢╕юМЁгйп╣добю╜я║
+        //О©╫О©╫О©╫О©╫О©╫О©╫п╣О©╫О©╫О©╫О©╫О©╫я║
             $("#province").change(function(){
                 var pvalue=$(this).val();
 
                 /*
                  * <select id="city" name="city">
-                 <option value="">гКя║тЯ.....</option>
-                 <option value="лЗаК">лЗаК</option>
+                 <option value="">О©╫О©╫я║О©╫О©╫.....</option>
+                 <option value="О©╫О©╫О©╫О©╫">О©╫О©╫О©╫О©╫</option>
                  </select>
                  */
-                //и╬ЁЩЁгйп╣добю╜я║,╠ёаТ<option value="">гКя║тЯ.....</option>
+                //и╬О©╫О©╫О©╫О©╫О©╫п╣О©╫О©╫О©╫О©╫О©╫я║,О©╫О©╫О©╫О©╫<option value="">О©╫О©╫я║О©╫О©╫.....</option>
                 $("#city option[value!='']").remove();
 
 
@@ -67,18 +67,18 @@ $(document).ready(function(){
                     /*
                      * domEle
                      * =
-                     * <province name="╪╙ажй║">
-                     <city>Ё╓╢╨</city>
-                     <city>╪╙ажйп</city>
-                     <city>кдф╫</city>
-                     <city>кит╜</city>
-                     <city>м╗╩╞</city>
+                     * <province name="О©╫О©╫О©╫О©╫й║">
+                     <city>О©╫О©╫О©╫О©╫</city>
+                     <city>О©╫О©╫О©╫О©╫О©╫О©╫</city>
+                     <city>О©╫О©╫ф╫</city>
+                     <city>О©╫О©╫т╜</city>
+                     <city>м╗О©╫О©╫</city>
                      </province>
                      */
                     if(nameAttr==pvalue){
                         var $cityXml=$(domEle).find("city");
                         $cityXml.each(function(index,domEleCity){
-                            //domEleCity===<city>Ё╓╢╨</city>
+                            //domEleCity===<city>О©╫О©╫О©╫О©╫</city>
                             var cityValue=$(domEleCity).text();
 
                             var $option=$("<option></option>");
@@ -89,10 +89,10 @@ $(document).ready(function(){
                     }
                 });
             });
-          //тб╥щхуфзобю╜ап╠М
-      	  //╠ё╢Фxmlнд╣╣н╙х╚╬ж╠Да©
+          //О©╫б╥О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫п╠О©╫
+      	  //О©╫О©╫О©╫О©╫xmlО©╫д╣О©╫н╙х╚О©╫ж╠О©╫О©╫О©╫
       	    var xmlDoc=null;
-      	    //╢╕юМmonth╣добю╜я║
+      	    //О©╫О©╫О©╫О©╫monthО©╫О©╫О©╫О©╫О©╫О©╫я║
       	    $.get("ajaxRequest/days.xml",function(xml){
       	        xmlDoc=xml;
       	        var $monthXml=$(xml).find("month");
@@ -108,7 +108,7 @@ $(document).ready(function(){
       	        });
       	    });
       	    /**************************************************************************************/
-      	//╢╕юМday╣добю╜я║
+      	//О©╫О©╫О©╫О©╫dayО©╫О©╫О©╫О©╫О©╫О©╫я║
       	    $("#month").change(function(){
       	        var pvalue=$(this).val();
       	        $("#day option[value!='']").remove();
