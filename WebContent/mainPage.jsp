@@ -108,7 +108,8 @@
 							class="etc"></span></a>
 					</div>
 					<ul class="comment-line" id="comment-line">
-						<li><img src="mainPageImg/1.jpg"> <span>嗦的太好啦！</span></li>
+						<!-- <li><img src="mainPageImg/1.jpg"> <span>嗦的太好啦！</span></li> -->
+						<li><img> <span></span></li>
 					</ul>
 					<div class="fri-mine clearfix" id="fri-mine">
 						<input name="input_mine" class="form-control input_mine"

@@ -19,13 +19,17 @@ $(document).ready(function(){
          $.get("ajaxRequest/word.jsp",jsonObj,function(data,textStatus){
              if(data==1){
 //            	 window.location.href="mainPage.jsp";
-            	 $(".comment-line li span").load("ajaxRequest/wordShow.jsp");
+//            	 var $don = $("<li><img src=‘../mainPageImg/2.jpg’> <span class='on'>新增！</span></li>");
+//            	 $(".comment-line").append($don);
+            	 $(".comment-line li .on").load("ajaxRequest/wordShow.jsp");
              }
              else{
             	 
              }
          });  
      });
+//	var $don = $("<li><img src=‘mainPageImg/1.jpg’> <span class='on'>新增！</span></li>");
+//	 $(".comment-line").append($don);
 	$(".comment-line li span").load("ajaxRequest/wordShow.jsp");
 	
     //��Ҷ��ڿ�
